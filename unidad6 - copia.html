@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Representación Matemática de Señales</title>
+    <link rel="stylesheet" type="text/css" href="styles/bootstrap4/bootstrap.min.css">
+    <link href="plugins/fontawesome-free-5.0.1/css/fontawesome-all.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" type="text/css" href="styles/news_styles.css">
+    <link rel="stylesheet" type="text/css" href="styles/news_responsive.css">
+    <link rel="icon" type="image/png" href="images/uta.png" />
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+        }
+
+        header {
+            background-color: #333;
+            color: white;
+            padding: 15px 0;
+            text-align: center;
+        }
+
+        h1, h2 {
+            color: #333;
+        }
+
+        section {
+            padding: 20px;
+            margin: 20px;
+            background-color: white;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        iframe {
+            width: 100%;
+            height: 315px;
+            border: none;
+            border-radius: 8px;
+            margin-top: 15px;
+        }
+
+        .menu_container {
+            background-color: #fff;
+        }
+
+        .sidebar_list_item a {
+            color: #333;
+            text-decoration: none;
+        }
+
+        .sidebar_list_item a:hover {
+            color: #ff6600;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="super_container">
+        <!-- Header -->
+        <header class="header d-flex flex-row">
+            <div class="header_content d-flex flex-row align-items-center">
+                <div class="logo_container">
+                    <a href="index.html">
+                        <div class="logo">
+                            <img src="images/antenna.png" alt="">
+                            <div class="log-tet">
+                                <span>Comunicación</span>
+                                <span>Digital</span>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <nav class="main_nav_container">
+                    <div class="main_nav">
+                        <ul class="main_nav_list">
+                            <li class="main_nav_item"><a href="index.html">inicio</a></li>
+                            <li class="main_nav_item"><a href="unidad2.html">CAPITULO 2</a></li>
+                            <li class="main_nav_item"><a href="unidad3.html">CAPITULO 3</a></li>
+                            <li class="main_nav_item"><a href="unidad4.html">CAPITULO 4</a></li>
+                            <li class="main_nav_item"><a href="unidad5.html">CAPITULO 5</a></li>
+                            <li class="main_nav_item"><a href="unidad6.html">CAPITULO 6</a></li>
+                        </ul>
+                    </div>
+                </nav>
+            </div>
+        </header>
+
+        <!-- Menu -->
+        <div class="menu_container menu_mm">
+            <div class="menu_close_container">
+                <div class="menu_close"></div>
+            </div>
+            <div class="menu_inner menu_mm">
+                <div class="menu menu_mm">
+                    <ul class="menu_list menu_mm">
+                        <li class="menu_item menu_mm"><a href="index.html">INICIO</a></li>
+                        <li class="menu_item menu_mm"><a href="unidad1.html">CAPITULO 1</a></li>
+                        <li class="menu_item menu_mm"><a href="unidad2.html">CAPITULO 2</a></li>
+                        <li class="menu_item menu_mm"><a href="unidad3.html">CAPITULO 3</a></li>
+                        <li class="menu_item menu_mm"><a href="unidad4.html">CAPITULO 4</a></li>
+                        <li class="menu_item menu_mm"><a href="unidad5.html">CAPITULO 5</a></li>
+                        <li class="menu_item menu_mm"><a href="unidad6.html">CAPITULO 6</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <!-- Home -->
+        <div class="home">
+            <div class="home_background_container prlx_parent">
+                <div class="home_background prlx" style="background-image:url(images/news_background.jpg)"></div>
+            </div>
+            <div class="home_content">
+                <h1>CAPITULO 1: INTRODUCCIÓN A LAS REDES DE COMUNICACIONES MÓVILES</h1>
+            </div>
+        </div>
+
+        <!-- News -->
+        <div class="news">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8">
+                        <div class="news_posts">
+
+                            <!-- News Post -->
+                            <div class="news_post">
+                                <div class="news_post_title_container">
+                                    <div class="news_post_title">
+                                        <h2>Funciones Matemáticas de Señales</h2>
+                                    </div>
+                                </div>
+
+                                <div class="news_post_text">
+                                    <h3>Función Rampa</h3>
+                                    <p>La función rampa es una función continua que aumenta linealmente. Se define generalmente como \( r(t) = t \) para \( t \geq 0 \) y \( r(t) = 0 \) para \( t < 0 \).</p>
+                                    <iframe src="https://www.youtube.com/embed/abcRampa" allowfullscreen></iframe>
+                                </div>
+
+                                <div class="news_post_text">
+                                    <h3>Función Escalón</h3>
+                                    <p>Es una función matemática que tiene valor 0 para \( t < 0 \) y valor 1 para \( t \geq 0 \). Se utiliza para representar señales que cambian abruptamente de valor.</p>
+                                    <iframe src="https://www.youtube.com/embed/abcEscalon" allowfullscreen></iframe>
+                                </div>
+
+                                <div class="news_post_text">
+                                    <h3>Función Unitario</h3>
+                                    <p>Es una función que tiene valor 1 para \( t \geq 0 \) y valor 0 para \( t < 0 \). Es una forma de representar una señal que se activa en \( t = 0 \).</p>
+                                    <iframe src="https://www.youtube.com/embed/abcUnitario" allowfullscreen></iframe>
+                                </div>
+
+                                <div class="news_post_text">
+                                    <h3>Función Impulso</h3>
+                                    <p>Es una función que tiene un valor infinito en \( t = 0 \) y 0 en todos los demás puntos. Se usa para modelar señales que ocurren instantáneamente.</p>
+                                    <iframe src="https://www.youtube.com/embed/abcImpulso" allowfullscreen></iframe>
+                                </div>
+                            </div>
+
+                            <!-- News Post -->
+                            <div class="news_post">
+                                <div class="news_post_title_container">
+                                    <div class="news_post_title">
+                                        <h2>Transformada de Fourier</h2>
+                                    </div>
+                                </div>
+
+                                <div class="news_post_text">
+                                    <h3>Serie Trigonométrica</h3>
+                                    <p>Representación de señales periódicas como una suma infinita de senos y cosenos. Es útil para analizar la frecuencia de señales.</p>
+                                    <iframe src="https://www.youtube.com/embed/abcSerieTrigonometrica" allowfullscreen></iframe>
+                                </div>
+
+                                <div class="news_post_text">
+                                    <h3>Serie Exponencial</h3>
+                                    <p>Se utiliza para representar señales en términos de exponenciales complejas. Es una forma alternativa a la serie trigonométrica.</p>
+                                    <iframe src="https://www.youtube.com/embed/abcSerieExponencial" allowfullscreen></iframe>
+                                </div>
+
+                                <div class="news_post_text">
+                                    <h3>Transformada de Fourier</h3>
+                                    <p>La transformada de Fourier convierte una señal del dominio del tiempo al dominio de la frecuencia. Es fundamental en procesamiento de señales.</p>
+                                    <iframe src="https://www.youtube.com/embed/abcTransformadaFourier" allowfullscreen></iframe>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Sidebar Column -->
+                    <div class="col-lg-4">
+                        <div class="sidebar">
+                            <div class="sidebar_section">
+                                <div class="sidebar_section_title">
+                                    <h3>Contenido</h3>
+                                    <p>Haz clic en el ítem deseado para dirigirte al Tema</p>
+                                </div>
+
+                                <ul class="sidebar_list_item">
+                                    <li><a href="#rampa">Función Rampa</a></li>
+                                    <li><a href="#escalon">Función Escalón</a></li>
+                                    <li><a href="#unitario">Función Unitario</a></li>
+                                    <li><a href="#impulso">Función Impulso</a></li>
+                                    <li><a href="#fourier">Transformada de Fourier</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <script src="js/jquery-3.2.1.min.js"></script>
+    <script src="styles/bootstrap4/popper.js"></script>
+    <script src="styles/bootstrap4/bootstrap.min.js"></script>
+    <script src="plugins/greensock/TweenMax.min.js"></script>
+    <script src="plugins/greensock/TimelineMax.min.js"></script>
+    <script src="plugins/scrollmagic/ScrollMagic.min.js"></script>
+    <script src="plugins/greensock/animation.gsap.min.js"></script>
+    <script src="plugins/greensock/ScrollToPlugin.min.js"></script>
+    <script src="plugins/scrollTo/jquery.scrollTo.min.js"></script>
+    <script src="plugins/easing/easing.js"></script>
+    <script src="js/news_custom.js"></script>
+
+</body>
+
+</html>
